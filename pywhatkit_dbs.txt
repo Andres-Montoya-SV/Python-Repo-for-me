@@ -1,0 +1,26 @@
+--------------------
+Date: 29:11:2020
+Time: 17:24
+Phone number: xxxxxxxxxxxxxxxxxxx
+Message: Prueba de mensaje
+--------------------
+Date: 29:11:2020
+Time: 17:27
+Phone number: xxxxxxxxxxxxxxxxxxx
+Message: Prueba de mensaje
+--------------------
+Date: 29:11:2020
+Time: 17:29
+Phone number:xxxxxxxxxxxxxxxxxxx
+Message: Python Automated Message
+--------------------
+Date: 29:11:2020
+Time: 17:29
+Phone number: xxxxxxxxxxxxxxxxxxx
+Message: Python Automated Message
+--------------------
+Date: 29:11:2020
+Time: 18:49
+Phone number: xxxxxxxxxxxxxxxxxxx
+Message: Python Automated Message
+--------------------

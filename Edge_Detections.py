@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Nov 24 00:42:34 2020
+
+@author: ricardo.montoya
+"""
+
+import cv2 as cv
+import numpy as np
+import matplotlib.pyplot as plt
+
+img = cv.imread("Photos/cat2.jpg")
+cv.imshow("Cat", img)
+
+gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+cv.imshow("Grey", gray)
+
+lap = cv.Laplacian(gray, cv.CV_64F)
+lap = np.uint8(np.absolute(lap))
+cv.imshow("Laplacian", lap)
+
+sobelx = cv.Sobel(gray, cv.CV_64F, 1, 0)
+sobely = cv.Sobel(gray, cv.CV_64F, 0, 1)
+combined_sobel = cv.bitwise_or(sobelx, sobely)
+
+cv.imshow("Sobel X", sobelx)
+cv.imshow("Sobel Y", sobely)
+cv.imshow("Sobel Combined", combined_sobel)
+
+canny = cv.Canny(gray, 150, 175)
+cv.imshow("Canny", canny)
+
+cv.waitKey(0)
